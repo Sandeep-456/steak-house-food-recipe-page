@@ -1,0 +1,531 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.navbar {
+  background-image: linear-gradient(80deg, #ba072b, #120205);
+}
+
+#nav-text1 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+#nav-text2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+#nav-text3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+#nav-text4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.banner-bg-image {
+  background-image: url("https://res.cloudinary.com/dpvrtbqxt/image/upload/v1728205731/8Qlow8hw5wjK6Ie6Xnavz-transformed_e02xsu.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 30px;
+  padding-bottom: 0px;
+}
+.banner_section {
+  text-align: center;
+  overflow: auto;
+}
+
+.Heading {
+  color: white;
+  font-size: 80px;
+  font-weight: 500;
+  font-family: "Lobster";
+  margin-bottom: 100px;
+}
+
+.note {
+  color: #f0e1e4;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Bebas Neue";
+  margin-bottom: 40px;
+}
+.banner-button {
+  color: #f0e1e4;
+  font-size: 23px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  background-image: radial-gradient(#914151, #3d0611);
+  height: 50px;
+  width: 150px;
+  border-width: 2px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #30181d;
+}
+
+/* feactured*/
+.featured_section {
+  background-image: linear-gradient(120deg, #5c2726, black, #595551);
+  padding: 20px;
+  padding-bottom: 80px;
+  padding-top: 50px;
+}
+
+.featured-heading {
+  color: #ffffff;
+  font-family: "Lora";
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.featured-collection-card {
+  border-style: solid;
+  border-color: #731310;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 1px 1px 30px 8px #731310;
+}
+
+.featured-card {
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  padding: 14px;
+  transition: all 1s;
+}
+
+.featured-card:hover {
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.featured-card-image {
+  border-radius: 20px;
+}
+
+.featured-card-title {
+  color: white;
+  font-family: "Merriweather";
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+.link-text {
+  color: #89e0b9;
+  font-size: 13px;
+  font-family: "Roboto";
+}
+
+/*categories*/
+.Categories-section {
+  background-image: radial-gradient(#292828, black);
+  padding: 20px;
+}
+.cs-heading {
+  color: white;
+  font-family: "Lora";
+  font-size: 32px;
+  text-align: center;
+}
+.cs-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cs-nav-card {
+  width: 100px;
+  margin: 20px;
+}
+.cs-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+.cs-title {
+  color: white;
+  font-family: "roboto";
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*itemsection*/
+.item-section {
+  background-image: radial-gradient(#292828, black);
+  padding: 70px;
+}
+.item-heading {
+  color: white;
+  font-size: 46px;
+  margin-left: 20px;
+  font-family: "Poppins";
+}
+.item-card {
+  background-color: #2e2e2e;
+  border-radius: 20px;
+}
+.item-image {
+  border-radius: 20px;
+}
+.items-name {
+  color: rgb(214, 190, 190);
+  font-family: "Merriweather";
+  font-size: 18px;
+}
+.item-view {
+  color: rgb(248, 247, 247);
+  font-family: "Merriweather";
+  font-size: 11px;
+  margin-bottom: 0px;
+}
+.hr-line {
+  color: #363232;
+  border: solid 1px;
+}
+
+.item-section:hover .item-card:not(:hover) {
+  filter: grayscale(1) blur(4px);
+}
+
+/*tips*/
+.tips-section {
+  background-color: #2e2e2e;
+  padding: 40px;
+}
+.tip-img {
+  height: 300px;
+  border-radius: 100px;
+}
+.tips-heading {
+  color: rgb(232, 214, 15);
+  font-family: "Lobster";
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.tip-description {
+  color: rgb(0, 250, 125);
+  font-family: "Lora";
+  font-size: 18px;
+  font-weight: 600;
+}
+.text {
+  color: rgb(180, 212, 101);
+}
+.text-1 {
+  color: rgb(244, 136, 136);
+}
+.autoshow{
+  animation: autoshowanimation both;
+  animation-timeline: view(70% 5%);
+}
+@keyframes autoshowanimation {
+  from {
+    opacity: 0;
+    transform: translateY(200px) scale(0.3);
+  }to{
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+
+/*chefs-talk*/
+.cooks-cntr {
+  background-image: linear-gradient(120deg, #ebd7d7, rgb(39, 30, 30));
+}
+.cor-img {
+  height: 200px;
+  border-radius: 100px;
+}
+.text-container {
+  padding: 30px;
+}
+.cooks-heading {
+  color: rgba(0, 0, 0, 0.829);
+  font-weight: 600;
+  font-family: "Merriweather";
+  font-size: 46px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.cooks-text {
+  color: black;
+  font-family: "Lora";
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.cooks-cor {
+  background-color: black;
+  height: 100%;
+  padding-top: 40px;
+}
+.cook-name {
+  color: white;
+  font-family: "Poppins";
+  font-size: 28px;
+  margin-top: 30px;
+}
+.cook-role {
+  color: rgb(189, 187, 187);
+  font-family: "Poppins";
+  font-size: 16px;
+  margin-top: 30px;
+}
+.cooks-btn {
+  height: 48px;
+  width: 170px;
+  color: white;
+  background-color: black;
+  border-width: 0px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/*save-box*/
+.save-box {
+  background-image: radial-gradient(rgb(160, 136, 136), black);
+  padding: 30px;
+}
+.sb-sub-heding {
+  color: white;
+  font-family: "Lora";
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.sb-heading {
+  color: white;
+  font-family: "Merriweather";
+  font-size: 38px;
+  margin-bottom: 50px;
+}
+.sb-text {
+  color: rgba(255, 255, 255, 0.89);
+  font-family: "Lora";
+  font-size: 18px;
+  list-style: none;
+}
+.list-text {
+  margin-top: 20px;
+}
+.sb-img {
+  height: 300px;
+}
+.sb-button {
+  height: 48px;
+  width: 170px;
+  color: white;
+  background-color: black;
+  border-width: 0px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/*contact-section*/
+.contact-section {
+  background-image: linear-gradient(120deg, rgb(136, 142, 160), rgb(6, 8, 48));
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.contact-heading {
+  color: rgb(248, 249, 246);
+  font-family: "Lora";
+  font-weight: 600;
+  font-size: 38px;
+}
+.contact-para {
+  color: rgba(246, 243, 243, 0.781);
+  font-family: "Lora";
+}
+.contact-button {
+  height: 48px;
+  width: 170px;
+  color: white;
+  background-image: radial-gradient(rgba(26, 6, 247, 0.832), rgb(29, 29, 96));
+  border-width: 0px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.contact-modal{
+  background-image:linear-gradient(110deg,rgb(190, 186, 240),rgb(41, 30, 139));
+  font-family: "Lora";
+  font-weight:500;
+  color:black;
+  border-radius: 16px;
+}
+.modal-headinng{
+  font-weight: 600;
+  font-family: "Lora";
+}
+.text-area{
+  background-color: transparent;
+  border-radius: 10px;
+  border-color: rgb(108, 79, 189);
+  border-width:3px;
+  color:white;
+}
+.email_box{
+  background-color: transparent;
+  border-color: rgb(123, 85, 212);
+  border-radius: 10px;
+  color:rgb(0, 0, 0);
+}
+.modal_close_btn{
+  height: 40px;
+  width: 100px;
+  color: white;
+  background-color: black;
+  border-width: 0px;
+  border-radius: 10px;
+}
+.modal_submit_btn{
+  height: 40px;
+  width: 100px;
+  color: white;
+  background-color: rgb(124, 135, 252);
+  border-width: 0px;
+  border-radius: 10px;
+}
+.contact-img {
+  height: 190px;
+}
+
+/*footer-section*/
+.footer-section {
+  background-color: black;
+  padding: 20px;
+}
+.footer-image {
+  width: 100px;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+.footer-heading {
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+  font-family: "Merriweather";
+}
+.font_style {
+  font-family: "Lobster";
+  font-size: 40px;
+}
+.footer-sub-heading {
+  color: rgb(133, 72, 72);
+  font-family: "Lora";
+  font-weight: 600;
+  font-size: 16px;
+}
+.text-footer {
+  color: rgb(176, 176, 176);
+  list-style-type: none;
+  padding: 0px;
+  font-size: 18px;
+  font-family: "Lora";
+}
+.footer_list_text {
+  margin-top: 18px;
+  margin-left: 10px;
+}
+.footer-icon-container {
+  background-color: rgb(242, 237, 237);
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  padding-top: 16px;
+  text-align: center;
+}
+.icon_size {
+  font-size: 29px;
+  color: rgb(3, 3, 3);
+}
+.fotter-bottom-cntr {
+  background-color: black;
+}
+.footer-copyright-text {
+  color: rgb(109, 109, 109);
+  font-size: 16px;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.Recipe-page{
+  background-image: linear-gradient(125deg,rgb(168, 168, 168),rgb(0, 0, 0));
+}
+.video-cnts{
+  background-color: rgb(28, 33, 43);
+  border-radius: 20px;
+  padding:20px;
+}
+.ingrediants-heading{
+  color:white;
+  font-size:28px;
+  font-family: "Playfair Display";
+  margin-top:18px;
+  margin-bottom: 25px;
+}
+.ingrediants-list{
+  color:rgb(169, 165, 165);
+  font-family:"Lora";
+  list-style-type: disc;
+}
+.ing-text{
+  margin-top:14px;
+}
+.making-text-cntr{
+  background-color: rgb(28, 33, 43);
+  border-radius: 20px;
+  padding:20px;
+}
+.making-heading{
+  color:rgb(255, 13, 13);
+  font-family: "Playfair Display";
+  font-size:33px;
+  font-weight:500;
+}
+.making-time{
+  color:rgb(169, 165, 165);
+  font-family:"Lora";
+}
+.intructions-heading{
+  color:rgb(249, 245, 245);
+  font-family: "Playfair Display";
+  font-size:23px;
+}
+.making-text-list{
+  color:rgb(243, 212, 132);
+  font-size:18px;
+  font-family:"Lora";
+}
+.making-text{
+  color:rgb(217, 215, 215);
+  font-family:"Lora";
+  list-style-type: disc; 
+}
+.mak-text{
+  margin-top:14px;
+}
+.back-btn{
+  color:white;
+  background-color: black;
+  height:36px;
+  width:100px;
+  border-radius: 10px;
+  border-width:0px;
+}
